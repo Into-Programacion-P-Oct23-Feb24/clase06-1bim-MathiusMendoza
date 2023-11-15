@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo01 {
+public class EjemploRecopiado {
 
     /**
      * @param args the command line arguments
@@ -22,46 +22,45 @@ public class Ejemplo01 {
         entrada.useLocale(Locale.US);
         System.out.println("Ingrese el nombre del día de la semana");
         String cadena = entrada.nextLine();
-        
+        cadena = cadena.toLowerCase();
         switch(cadena){// estructura que evalúa más de un caso      
 
-            case "Lunes":
-                System.out.printf("%s\n, es el primer dia"
+            case "lunes":
+                System.out.printf("%s, es el primer dia"
                         + "de la semana", cadena);
                 break;
             
-            case "Martes":
+            
             case "martes":
-                System.out.printf("%s\n, es el segundo dia"
+                System.out.printf("%s, es el segundo dia"
                         + "de la semana", cadena);
                 break;
-            case "Miercoles":
-            case "MIERCOLES":
-                System.out.printf("%s\n, es el tercer dia"
+            case "miercoles":
+           
+                System.out.printf("%s, es el tercer dia"
                         + "de la semana", cadena);
                 break;
                 
-            case "Jueves":
-            case "JUEVES":
+            case "jueves":
+            
                 System.out.printf("%s\n, es el cuarto dia"
                         + "de la semana", cadena);
                 break;
             
-            case "Viernes":
-            case "VIERNES":
             case "viernes":
+            
                 System.out.printf("%s\n, es el quinto dia"
                         + "de la semana", cadena);
                 break;
              
-            case "Sabado":
-            case "SABADO":
+            case "sabado":
+           
                 System.out.printf("%s\n, es el sexto dia"
                         + "de la semana", cadena);
                 break;
                 
-            case "Domingo":
-            case "DOMINGO":
+            case "domingo":
+           
                 System.out.printf("%s\n, es el septimo dia"
                         + "de la semana", cadena);
                 break;
