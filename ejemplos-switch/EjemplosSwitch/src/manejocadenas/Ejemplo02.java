@@ -15,7 +15,8 @@ public class Ejemplo02 {
         String pais;
         
         pais = "Ecuador";
-        char letra = pais.charAt(0);
+        char letra = pais.charAt(0); 
+         //El metodo charAr sirve para las variables de tipo cadena.
         System.out.printf("%s\n", letra);
         
     }
